@@ -1,5 +1,5 @@
 # uRayTracerDemo
-Underwater acoustic ray tracing throug layered medium
+Underwater acoustic ray tracing through layered medium
 
 ![screenshot](https://github.com/ucnl/uRayTracerDemo/blob/main/pics/pic1.png)  
 
