@@ -190,6 +190,11 @@ namespace uRayTracerDemo
 
         #endregion        
 
+        private void profileBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
         #endregion
 
         #endregion

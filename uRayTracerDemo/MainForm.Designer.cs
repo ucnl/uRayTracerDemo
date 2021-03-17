@@ -99,6 +99,7 @@
             this.profileBtn.Name = "profileBtn";
             this.profileBtn.Size = new System.Drawing.Size(117, 32);
             this.profileBtn.Text = "PROFILE...";
+            this.profileBtn.Click += new System.EventHandler(this.profileBtn_Click);
             // 
             // demoProfilesBtn
             // 
