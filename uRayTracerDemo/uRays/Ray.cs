@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace uRayTracerDemo.uRays
@@ -101,11 +101,11 @@ namespace uRayTracerDemo.uRays
             
             double rsn = dZ / Math.Abs(Math.Sin(Theta_rad));            
             double drn = Math.Sqrt(rsn * rsn - dZ * dZ);
-            Path_m += rsn;
+            Path_m += Math.Abs(rsn);
             x += drn;
 
             c = getSoundSpeed(z);
-                        
+
             double cosTheta = Math.Cos(Theta_rad);
             double recipSinTheta = 1.0 / Math.Sin(Theta_rad);
             double cncp = cosTheta * c / cPrev;

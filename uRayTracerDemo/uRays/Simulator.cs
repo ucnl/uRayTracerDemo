@@ -116,7 +116,7 @@ namespace uRayTracerDemo.uRays
                 v = PHX.Speed_of_sound_UNESCO_calc(t, p, s);
                 vssp.Add(new VSSPPoint(z, v));
 
-                z += dZ;
+                z += 0.1;
             }
 
             vssp_lookup = new Dictionary<double, double>();
